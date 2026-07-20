@@ -1,0 +1,33 @@
+[?? Text energy: Joy. Calming, stable, and supports inner peace. (confidence: 94%)]
+
+Today is a beautiful day full of warm sunshine and big smiles. I feel happy from the bottom of my heart, as if a bright light is shining inside me. Experiencing this wonderful moment fills me with deep satisfaction, allowing me to appreciate the simple pleasures of life. This sudden breakthrough has not only vindicated my long-term efforts but also kindled an overwhelming sense of profound bliss. It is an extraordinary state of absolute euphoria, where every single worry completely evaporates, leaving behind a serene and harmonious state of mind that elevates my entire existence.
+---
+
+[?? Text energy: Sadness. Heavy or low energy. May cause emotional fatigue. (confidence: 90%)]
+
+Today is a dark and cold day. I am alone in my room, and I feel very sad. Tears are falling from my eyes because everything feels so heavy right now. Losing someone you care about causes deep pain, leaving an empty space that is difficult to fill. This sudden misfortune has plunged me into a state of profound grief, making it hard to find any comfort. It is an overwhelming sense of melancholia, where a persistent sorrow clouds every thought, casting a bleak shadow over my life and leaving me in complete emotional isolation.
+---
+[?? Text energy: Fear/Danger. High alert status. Keep your inner peace. (confidence: 100%)]
+
+Fear is a natural feeling. Everyone feels afraid sometimes. A child may fear the dark, and an adult may fear losing a job or making a serious mistake. Fear can make our heart beat faster and our hands shake. Sometimes we say, "I'm scared," even when there is no real danger. However, fear is not always negative. It warns us about risks and encourages us to think carefully before acting. In academic terms, fear is a psychological and physiological response to perceived threats. If we understand its source and manage it wisely, fear can become a catalyst for growth rather than an obstacle to success. True courage is not the absence of fear but the determination to move forward despite it.
+---
+[?? Text energy: Anger. High tension or sharp words. Take a deep breath. (confidence: 74%)]
+
+Anger is a powerful emotion that everyone experiences. Sometimes we get mad because someone lies to us, treats us unfairly, or refuses to listen. We may say, "I'm really angry!" or "This isn't fair!" At that moment, our face becomes hot, our muscles tighten, and our voice grows louder. Although anger can feel overwhelming, it is not always destructive. It often signals that our values, rights, or expectations have been violated. From a psychological perspective, anger is an emotional response to perceived injustice or frustration. When recognized and regulated effectively, it can motivate constructive action, strengthen personal boundaries, and inspire meaningful change. True strength lies not in uncontrolled rage but in transforming anger into wisdom, resilience, and positive action.
+---
+[?? Text energy: Trust. Safe, reliable, and deeply comforting for the soul. (confidence: 100%)]
+
+Trust is one of the strongest bonds between people. It begins with small actions, honest words, and promises that are kept. We trust our family, our friends, and those who stand by us in difficult times. When someone says, "You can count on me," we feel safe and respected. Trust gives us confidence to share our thoughts, accept help, and build lasting relationships. However, trust is fragile and can be broken by lies, betrayal, or repeated disappointment. From a psychological and social perspective, trust is the foundation of healthy cooperation and meaningful human connection. It encourages openness, reduces fear, and strengthens communities. True trust is not blind belief but a reasoned confidence earned through integrity, consistency, and mutual respect over time.
+---
+[?? Text energy: Disgust. A strong feeling of rejection or toxicity. Keep your distance. (confidence: 100%)]
+
+Disgust is a strong emotion that makes us want to turn away. We may feel disgust when we smell rotten food, see something dirty, or witness dishonest behavior. Sometimes we simply say, "That's disgusting," because it feels wrong or unpleasant. Our face may tighten, our nose may wrinkle, and we naturally avoid what causes the feeling. Although disgust is often linked to bad smells or spoiled food, it also protects us from harmful actions and unhealthy situations. From a psychological perspective, disgust is an emotional response to contamination, moral violations, or deeply unpleasant experiences. When understood correctly, it helps us establish healthy boundaries, avoid danger, and preserve both physical well-being and ethical values. True wisdom is knowing when disgust is a useful warning and when it is only an unfair judgment.
+---
+[? Text energy: Surprise. Dynamic and unexpected. Keep your focus sharp. (confidence: 100%)]
+
+Surprise is a sudden emotion that catches us without warning. It can happen when we receive unexpected good news, meet an old friend, or discover something we never imagined. We often say, "Really?" or "I can't believe it!" because the moment feels so unusual. Our eyes grow wide, our eyebrows rise, and for a second we may not know what to say. Surprise can be joyful, confusing, or even frightening, depending on the situation. From a psychological perspective, surprise is an immediate response to an unexpected event that challenges our expectations and redirects our attention. It encourages rapid learning, flexible thinking, and adaptation to new circumstances. True surprise does not simply interrupt our thoughts—it opens the door to curiosity, discovery, and a deeper understanding of the world around us.
+---
+[? Text energy: Anticipation. Forward-looking and expectant. Stay grounded while you wait. (confidence: 100%)]
+
+Anticipation is the feeling of looking forward to something that has not happened yet. We may feel excited before a trip, a celebration, an important meeting, or the results of an exam. Sometimes we say, "I can't wait!" because our mind is already imagining the future. Our heart beats a little faster, our thoughts become more active, and every passing minute seems longer. Anticipation can bring hope, motivation, and positive energy, but it may also create nervousness when the outcome is uncertain. From a psychological perspective, anticipation is an emotional and cognitive state shaped by expectations about future events. It prepares us to plan, adapt, and make decisions before opportunities or challenges arrive. True anticipation is not simply waiting for the future—it is engaging with it through hope, preparation, and purposeful action.
+---
