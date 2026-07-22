@@ -9,30 +9,30 @@ namespace Sentiment
         {
             var processor = new TextProcessor();
             var sentimentAnalyzer = new SentimentAnalyzer();
-            var categoryAnalyzer = new CategoryAnalyzer();
+            var category_analyzer = new CategoryAnalyzer();
 
             Console.WriteLine("=== Advanced Text & Content Analysis Framework ===");
             Console.WriteLine("Please enter the text to analyze (between 256 and 1024 characters):");
 
-            string userInput = Console.ReadLine();
+            string user_input = Console.ReadLine();
 
-            if (processor.IsValidLength(userInput))
+            if (processor.IsValidLength(user_input))
             {
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"\n[✓] Valid text length: ({userInput.Length} characters)");
+                Console.WriteLine($"\n[✓] Valid text length: ({user_input.Length} characters)");
                 Console.ResetColor();
 
                 // 1. Analyze human activity classification (STEEPLED) and display results
-                var catResult = categoryAnalyzer.AnalyzeActivity(userInput);
-                string category = catResult.Category;
-                string catConfText = $" (confidence: {catResult.Confidence:P0})";
+                var cat_result = category_analyzer.AnalyzeActivity(user_input);
+                string category = cat_result.Category;
+                string caegory_confidence_text = $" (confidence: {cat_result.Confidence:P0})";
 
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine($"\n[📊 Content Classification: {category}{catConfText}]");
+                Console.WriteLine($"\n[📊 Content Classification: {category}{caegory_confidence_text}]");
                 Console.ResetColor();
 
                 // 2. Analyze text energy and emotions, then display results with specific styling
-                var sentResult = sentimentAnalyzer.AnalyzeSentiment(userInput);
+                var sentResult = sentimentAnalyzer.AnalyzeSentiment(user_input);
                 string emotion = sentResult.Emotion;
                 float confidence = sentResult.Confidence;
                 string confidenceText = $" (confidence: {confidence:P0})";
@@ -93,7 +93,7 @@ namespace Sentiment
             else
             {
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine($"\n[✕] Invalid text: Length is {userInput?.Length ?? 0} chars. (Must be 256-1024)");
+                Console.WriteLine($"\n[✕] Invalid text: Length is {user_input?.Length ?? 0} chars. (Must be 256-1024)");
                 Console.ResetColor();
             }
 
