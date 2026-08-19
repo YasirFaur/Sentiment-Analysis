@@ -6,7 +6,7 @@ namespace Sentiment
 {
     class Program
     {
-        static void Main()
+        static async Task Main(string[] args)
         {
             var processor = new TextProcessor();
             var sentimentAnalyzer = new SentimentAnalyzer();
@@ -39,27 +39,39 @@ namespace Sentiment
                 Console.WriteLine($"\n[✓] Valid text length: ({user_input.Length} characters)");
                 Console.ResetColor();
 
-                // 1. Analyze human activity classification (STEEPLED) and display results
-                var cat_result = category_analyzer.AnalyzeActivity(user_input);
-                string category = cat_result.Category;
-                string caegory_confidence_text = $" (confidence: {cat_result.Confidence:P0})";
-                Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine($"\n[📊 Content Classification: {category}{caegory_confidence_text}]");
-                Console.ResetColor();
 
-                // 2. Analyze language level classification (CEFR) and display results
-                var level_result = language_level.AnalyzeLevel(user_input);
+                // 1. Run all three analysis pipelines concurrently in parallel tasks
+                var categoryTask = Task.Run(() => category_analyzer.AnalyzeActivity(user_input));
+                var levelTask = Task.Run(() => language_level.AnalyzeLevel(user_input));
+                var sentimentTask = Task.Run(() => sentimentAnalyzer.AnalyzeSentiment(user_input));
+
+                // Wait for all three tasks to finish execution
+                await Task.WhenAll(categoryTask, levelTask, sentimentTask);
+
+                // Extract the results
+                var cat_result = categoryTask.Result;
+                var level_result = levelTask.Result;
+                var sentResult = sentimentTask.Result;
+
+                // 2. Display Content Classification (STEEPLED)
+                string category = cat_result.Category;
+                string category_confidence_text = $" (confidence: {cat_result.Confidence:P0})";
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine($"\n[📊 Content Classification: {category}{category_confidence_text}]");
+
+                // 3. Display Language Level Classification (CEFR)
                 string level = level_result.Level;
                 string level_confidence_text = $" (confidence: {level_result.Confidence:P0})";
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.WriteLine($"\n[🎓 Language Level: {level}{level_confidence_text}]");
-                Console.ResetColor();
+                Console.WriteLine($"[🎓 Language Level: {level}{level_confidence_text}]");
 
-                // 2. Analyze text energy and emotions, then display results with specific styling
-                var sentResult = sentimentAnalyzer.AnalyzeSentiment(user_input);
+                // 4. Display Text Energy & Emotion Results
                 string emotion = sentResult.Emotion;
                 float confidence = sentResult.Confidence;
                 string confidenceText = $" (confidence: {confidence:P0})";
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine($"[⚡ Sentiment/Emotion: {emotion}{confidenceText}]");
+                Console.ResetColor();
 
                 if (emotion == "Joy")
                 {
