@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "LanguageLeve.cs",
               "ToolTip": "D:\\Sentiment Analysis\\LanguageLeve.cs",
               "RelativeToolTip": "LanguageLeve.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-19T14:34:39.126Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "ActivityClassifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T10:12:04.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-20T10:12:04.504Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "SentimentAnalyzer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T09:10:24.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-19T09:10:24.145Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "TextProcessor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T09:08:22.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-19T09:08:22.836Z"
             },
             {
               "$type": "Document",
@@ -94,9 +91,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Sentiment Analysis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Sentiment Analysis\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAiAAAAAAAAAA==",
+              "ToolTip": "D:\\Sentiment Analysis\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-19T08:55:39.464Z",
               "EditorCaption": ""
