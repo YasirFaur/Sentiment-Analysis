@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|d:\\sentiment analysis\\sentimentanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|solutionrelative:sentimentanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|d:\\sentiment analysis\\textprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|solutionrelative:textprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|d:\\sentiment analysis\\activityclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|solutionrelative:activityclassifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|d:\\sentiment analysis\\textprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|solutionrelative:textprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|d:\\sentiment analysis\\sentimentanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D93F16B1-CDB1-95D3-83A6-78A0A562C854}|Sentiment Analysis.csproj|solutionrelative:sentimentanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,35 +40,36 @@
               "RelativeDocumentMoniker": "ActivityClassifier.cs",
               "ToolTip": "D:\\Sentiment Analysis\\ActivityClassifier.cs",
               "RelativeToolTip": "ActivityClassifier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-20T10:12:04.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SentimentAnalyzer.cs",
               "DocumentMoniker": "D:\\Sentiment Analysis\\SentimentAnalyzer.cs",
               "RelativeDocumentMoniker": "SentimentAnalyzer.cs",
               "ToolTip": "D:\\Sentiment Analysis\\SentimentAnalyzer.cs",
               "RelativeToolTip": "SentimentAnalyzer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-19T09:10:24.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "TextProcessor.cs",
               "DocumentMoniker": "D:\\Sentiment Analysis\\TextProcessor.cs",
               "RelativeDocumentMoniker": "TextProcessor.cs",
               "ToolTip": "D:\\Sentiment Analysis\\TextProcessor.cs",
               "RelativeToolTip": "TextProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T09:08:22.836Z"
+              "WhenOpened": "2026-07-19T09:08:22.836Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,9 +77,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Sentiment Analysis\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Sentiment Analysis\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFcAAAA9AAAAAAAAAA==",
+              "ToolTip": "D:\\Sentiment Analysis\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-19T08:55:39.464Z",
               "EditorCaption": ""

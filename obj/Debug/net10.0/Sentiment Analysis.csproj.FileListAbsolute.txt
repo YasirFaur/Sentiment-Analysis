@@ -39,3 +39,4 @@ D:\Sentiment Analysis\obj\Debug\net10.0\refint\Sentiment Analysis.dll
 D:\Sentiment Analysis\obj\Debug\net10.0\Sentiment Analysis.pdb
 D:\Sentiment Analysis\obj\Debug\net10.0\Sentiment Analysis.genruntimeconfig.cache
 D:\Sentiment Analysis\obj\Debug\net10.0\ref\Sentiment Analysis.dll
+D:\Sentiment Analysis\obj\Debug\net10.0\Sentiment Analysis.sourcelink.json
