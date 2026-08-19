@@ -11,6 +11,7 @@ namespace Sentiment
             var processor = new TextProcessor();
             var sentimentAnalyzer = new SentimentAnalyzer();
             var category_analyzer = new CategoryAnalyzer();
+            var language_level = new LanguageLevelAnalyzer();
 
             Console.WriteLine("=== Advanced Text & Content Analysis Framework ===");
             Console.WriteLine("Please enter the text to analyze (between 256 and 1024 characters):");
@@ -42,9 +43,16 @@ namespace Sentiment
                 var cat_result = category_analyzer.AnalyzeActivity(user_input);
                 string category = cat_result.Category;
                 string caegory_confidence_text = $" (confidence: {cat_result.Confidence:P0})";
-
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"\n[📊 Content Classification: {category}{caegory_confidence_text}]");
+                Console.ResetColor();
+
+                // 2. Analyze language level classification (CEFR) and display results
+                var level_result = language_level.AnalyzeLevel(user_input);
+                string level = level_result.Level;
+                string level_confidence_text = $" (confidence: {level_result.Confidence:P0})";
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.WriteLine($"\n[🎓 Language Level: {level}{level_confidence_text}]");
                 Console.ResetColor();
 
                 // 2. Analyze text energy and emotions, then display results with specific styling
