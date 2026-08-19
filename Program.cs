@@ -1,5 +1,6 @@
 ﻿using System;
 using Sentiment;
+using System.Text;
 
 namespace Sentiment
 {
@@ -14,7 +15,22 @@ namespace Sentiment
             Console.WriteLine("=== Advanced Text & Content Analysis Framework ===");
             Console.WriteLine("Please enter the text to analyze (between 256 and 1024 characters):");
 
-            string user_input = Console.ReadLine();
+            // Create a builder to hold multiple lines of text
+            StringBuilder sb = new StringBuilder();
+
+            // Create a variable to store each line
+            string line;
+
+            // Read lines until the user presses Enter on an empty line
+            while (!string.IsNullOrEmpty(line = Console.ReadLine()))
+            {
+                // Add the current line to our text builder
+                sb.AppendLine(line);
+            }
+
+            // Convert the builder content to string and remove extra spaces
+            string user_input = sb.ToString().Trim();
+
 
             if (processor.IsValidLength(user_input))
             {
